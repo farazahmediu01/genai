@@ -5,7 +5,7 @@ import os
 
 
 dotenv.load_dotenv()
-GEMENI_API_KEY = os.getenv("GEMENI_API_KEY")
+GEMENI_API_KEY = os.getenv("GEMINI_API_KEY")
 
 client = OpenAI(
     api_key=GEMENI_API_KEY,
